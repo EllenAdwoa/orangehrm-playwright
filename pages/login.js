@@ -5,6 +5,7 @@ exports.LoginPage = class LoginPage{
     this.username_textbox = page.getByRole('textbox', { name: 'Username' });
     this.password_testbox = page.getByRole('textbox', { name: 'Password' })
     this.login_button = page.getByRole('button', { name: 'Login' })
+    this.invalidCredentialsError = page.getByRole('alert').locator('div').filter({ hasText: 'Invalid credentials' })
     }
 
 
@@ -15,7 +16,7 @@ exports.LoginPage = class LoginPage{
 // clickLogin()
 
 async gotoLoginPage(){
-    await this.page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+    await this.page.goto('/')
 }
 
 async login(username, password){
