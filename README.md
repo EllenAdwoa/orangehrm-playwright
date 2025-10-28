@@ -18,7 +18,7 @@ The goal is to help QA engineers and developers easily set up, run, and expand P
 
 ---
 
-## 🚀 Features
+##  Features
 - **Playwright** framework for fast, reliable testing  
 - **Cross-browser** testing (Chromium, Firefox, WebKit)  
 - **Configurable environment variables** for easy customization  
@@ -27,7 +27,7 @@ The goal is to help QA engineers and developers easily set up, run, and expand P
 
 ---
 
-## 🧰 Prerequisites
+##  Prerequisites
 Before starting, ensure you have:
 - [Node.js](https://nodejs.org/) (LTS version recommended)
 - npm or yarn
@@ -36,15 +36,15 @@ Before starting, ensure you have:
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
-### 1️⃣ Clone the repository
+### 1️ Clone the repository
 ```bash
 git clone https://github.com/EllenAdwoa/orangehrm-playwright.git
 cd orangehrm-playwright
 ````
 
-### 2️⃣ Install dependencies
+### 2️ Install dependencies
 
 ```bash
 npm install
@@ -56,7 +56,7 @@ or
 npm ci
 ```
 
-### 3️⃣ Set up environment variables
+### 3️ Set up environment variables
 
 Create a `.env` file in the root directory:
 
@@ -66,11 +66,11 @@ USERNAME=admin
 PASSWORD=admin123
 ```
 
-> ⚠️ **Note:** Never commit `.env` files to GitHub — they may contain sensitive credentials. Add `.env` to your `.gitignore`.
+>  **Note:** Never commit `.env` files to GitHub — they may contain sensitive credentials. Add `.env` to your `.gitignore`.
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ### Run all tests (headless)
 
@@ -98,7 +98,7 @@ npx playwright test --debug
 
 ---
 
-## 🧱 Folder Structure
+##  Folder Structure
 
 ```
 orangehrm-playwright/
@@ -120,7 +120,7 @@ orangehrm-playwright/
 
 ---
 
-## 🧩 Example Test: Login
+##  Example Test: Login
 
 Here’s a simple example test that checks login functionality:
 
@@ -138,7 +138,7 @@ test('Login to OrangeHRM', async ({ page }) => {
 
 ---
 
-## 🧪 Run Tests in GitHub Actions (CI)
+##  Run Tests in GitHub Actions (CI)
 
 This repo includes an example workflow at `.github/workflows/playwright.yml`.
 
@@ -170,7 +170,7 @@ jobs:
 
 ---
 
-## 🧑🏽‍💻 Contributing
+##  Contributing
 
 Contributions are welcome! Follow these steps to add improvements:
 
@@ -194,7 +194,7 @@ Contributions are welcome! Follow these steps to add improvements:
 
 ---
 
-## ⚠️ Troubleshooting
+##  Troubleshooting
 
 **Problem:** `remote: Permission denied`
 ✅ **Fix:** You might be pushing to a repo you don’t own. Run:
@@ -212,13 +212,13 @@ git remote set-url origin https://github.com/EllenAdwoa/orangehrm-playwright.git
 
 ---
 
-## 🧾 License
+## License
 
 This project is licensed under the **MIT License** — feel free to modify and share.
 
 ---
 
-## 🌟 Acknowledgements
+## Acknowledgements
 
 * [Playwright](https://playwright.dev/)
 * [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com/)
@@ -226,7 +226,7 @@ This project is licensed under the **MIT License** — feel free to modify and s
 
 ---
 
-### 👩🏽‍💻 Author
+###  Author
 
 **Ellen Adwoa Nyini**
 Quality Assurance / Project Manager
@@ -240,5 +240,5 @@ Quality Assurance / Project Manager
 
 ---
 
-Would you like me to also create a **`playwright.yml` GitHub Actions workflow file** (to add inside `.github/workflows/`) so your tests can run automatically when you push code?
-```
+
+
